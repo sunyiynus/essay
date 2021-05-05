@@ -57,7 +57,9 @@ BtError.o:0000000000000000 r std::piecewise_construct
 
 解决办法：
 
-在库文件中，对外提供链接符号的函数不能**inline**。//TODO 动态库尚未实验过
+在库文件中，对外提供链接符号的函数不能**inline**。在C++中放在声明里面的成员函数将会默认inline，若是对外提供链接符号，可能会有问题 ?? //TODO 实验？
+
+//TODO 动态库尚未实验过
 
 
 
@@ -76,4 +78,8 @@ Ref.
 [4]  [Shared Libraries With GCC on linux](https://www.cprogramming.com/tutorial/shared-libraries-linux-gcc.html)
 
 [5]  [Definitions And ODR(one definition rule)](https://en.cppreference.com/w/cpp/language/definition)
+
+[6]  [static inline vs inline vs static in C++](https://gist.github.com/htfy96/50308afc11678d2e3766a36aa60d5f75#file-static_inline_example-md)
+
+
 
