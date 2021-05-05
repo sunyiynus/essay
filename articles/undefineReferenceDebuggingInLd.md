@@ -63,7 +63,7 @@ BtError.o:0000000000000000 r std::piecewise_construct
 
 
 
-Q：为什么这儿编译会通过？？
+Q：为什么这儿编译会通过？？为什么class编译完会成为一个symbol？？
 
 
 
@@ -81,5 +81,5 @@ Ref.
 
 [6]  [static inline vs inline vs static in C++](https://gist.github.com/htfy96/50308afc11678d2e3766a36aa60d5f75#file-static_inline_example-md)
 
-
+[7]  [C/C++ Include Guidelines](https://upcoder.com/20/cc-include-guidelines)
 
