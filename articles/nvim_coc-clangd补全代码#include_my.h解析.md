@@ -95,7 +95,7 @@ Bear 是一个通过记录这个build过程来生成compile_commands.json的工�
 ```shell
 $ make clean; bear -- make
 ```
-
+这儿前提是你已经为这个文件下的source code写好了makefile。
 
 
 
