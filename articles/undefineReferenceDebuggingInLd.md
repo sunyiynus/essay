@@ -67,6 +67,10 @@ Q：为什么这儿编译会通过？？为什么class编译完会成为一个sy
 
 
 
+*关于inline的更多可以看《Effective C++》条款30 **透彻了解inlining的里里外外**。*
+
+
+
 Ref.
 
 [1]  [htt"undefined reference to XXX"问题总结](https://zhuanlan.zhihu.com/p/81681440)
